@@ -9,6 +9,12 @@ using System.Threading.Tasks;
 
 namespace DITutorial.Controllers
 {
+    /***
+     * Dependency Innjection Tutorial
+     * 
+     * Author: Gülan Gürman
+     * Date: 24.10.2021      
+     */
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
